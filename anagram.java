@@ -5,7 +5,7 @@
 //  }
 
 //SOLUTION 2:Check if the two strings have equal number of each unique chars
-class Anagram{
+class anagram{
 public static boolean anagram(String s,String t){
 	if(s.length()!=t.length()) return false;
 	int[] letters=new int[256];
